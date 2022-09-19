@@ -25,11 +25,11 @@ function Gameboxes() {
   // ====> update the boxes array when the boxes are checked
 
   const markingBox = (index) => {
-    setdraw((draw) => draw + 1);
     if (!end) {
       setBoxes(
         boxes.map((item, idx) => {
           if (idx === index && item === "") {
+            setdraw((draw) => draw + 1);
             return player;
           }
           return item;
@@ -37,6 +37,7 @@ function Gameboxes() {
       );
       if (player === 1) {
         setplayer(2);
+        // setdraw((draw) => draw + 1);
       } else {
         setplayer(1);
       }

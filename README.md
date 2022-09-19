@@ -1,10 +1,10 @@
 
 
-# Task-2 - XOX -
+# GAME - XOX -
 
 # Live
 
-[Live-Link](https://lordtictactoe.netlify.app)
+[Live-Link](https://krgztictactoe.netlify.app/)
 
 ## Team Members
 - [Ahmet Salih Karagöz](https://github.com/krgzsalih)
