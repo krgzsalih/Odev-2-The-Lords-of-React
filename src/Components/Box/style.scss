@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+  background-color: #f3b18c;
+}
+
+.App-header {
+  width: 50vw;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  .group {
+    display: flex;
+    flex-direction: row;
+    width: 330px;
+    flex-wrap: wrap;
+    .rectangle {
+      width: 80px;
+      height: 80px;
+      background-color: #fff;
+      border: 10px solid #000000;
+      border-inline: 10px solid #000000;
+      border-radius: 20px;
+      color: #ff0505;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 5px;
+      cursor: pointer;
+  
+      font-family: "Finger Paint";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 94px;
+    }
+    .rectangle:hover {
+      background-color: #8c8c8c;
+    }
+  
+    .winner-box-red {
+      border: 10px solid #ff0505;
+      border-radius: 20px;
+      color: #ff0505;
+    }
+  
+    .winner-box-blue {
+      border: 10px solid #0026ed;
+      border-radius: 20px;
+      color: #0026ed;
+    }
+  
+    .text-x {
+      color: #ff0505;
+    }
+    .text-x:hover {
+      color: #fff;
+      background-color: #ff0505;
+    }
+    .text-o {
+      color: #0026ed;
+    }
+    .text-o:hover {
+      color: #fff;
+      background-color: #0026ed;
+    }
+  }
+  .score {
+    width: 100%;
+    .x{
+      color: #ff0505;
+      font-family: "Finger Paint";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 34px;
+      &:hover{
+        color: #fff;
+        background-color: #ff0505;  
+      }
+    }
+    .o {
+      color: #0026ed;
+      font-family: "Finger Paint";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 34px;
+      &:hover {
+        color: #fff;
+        background-color: #0026ed;
+      }
+    }
+    .restart {
+      color: rgb(0, 138, 51);
+      background-color: #f3b18c;
+      border: 2px solid;
+      border-radius: 10px;
+      width: 50%;
+      margin: auto;
+      padding: 1px 2px;
+      &:hover{
+        cursor: pointer;
+        background-color: rgb(0, 138, 51);
+        color: #f3b18c;
+      }
+    }
+    .noWin {
+      color: #ff0505;
+      margin: 10px 0;
+    }
+  }
+  .text {
+    width: 254px;
+    height: 65px;
+  
+    font-family: "Finger Paint";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 65px;
+    /* identical to box height */
+  
+    color: #0026ed;
+  }
+  ::selection {
+    background: transparent;
+  }
+}

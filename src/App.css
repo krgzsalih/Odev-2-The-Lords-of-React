@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
-
 .App {
   text-align: center;
 }
+
 .App-header {
   background-color: #f3b18c;
   min-height: 100vh;
@@ -13,81 +12,3 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.group{
-  width: 350px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-.squares {
-  width: 80px;
-  height: 80px;
-  background-color: #fff;
-  border: 10px solid #000000;
-  border-inline: 10px solid #000000;
-  border-radius: 20px;
-  color: #ff0505;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 5px;
-  cursor: pointer;
-  font-family: 'Finger Paint';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 64px;
-  line-height: 94px;
-}
-.squares::selection{
-  background: transparent;
-}
-.squares:hover{
-  background-color: #8C8C8C;
-}
-h3{
-  color: #000000;
-}
-span{
-  color: black;
-}
-.text {
-  font-family: 'Finger Paint';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 44px;
-  line-height: 65px;
-  /* identical to box height */
-  color: #0026ed;
-}
-
-.text-x {  
-  color: #FF0505;
-  font-family: 'Finger Paint';
-}
-.text-x:hover{
-  color: #fff;
-  background-color: #FF0505;
-}
-.text-o {
-  color: #0026ED;
-  font-family: 'Finger Paint';
-}
-.text-o:hover{
-  color: #fff;
-  background-color: #0026ED;
-}
-
-.winner-box-red {
-  border: 10px solid #ff0505;
-  border-radius: 10px;
-  border-radius: 20px;
-  color: #ff0505;
-}
-.winner-box-blue {
-  border: 10px solid #0026ED;
-  border-radius: 10px;
-  border-radius: 20px;
-  color: #0026ED;
-}
-
